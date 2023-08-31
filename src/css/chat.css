@@ -1,0 +1,40 @@
+
+.chat-button {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 0;
+	background-color: red;
+	
+}
+.chat-button-hide {
+	transition: all;
+	transition-duration: 0.2s;
+	transform: scale(0);
+}
+/* окно чата */
+.chat-container {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+}
+.close-btn {
+	display: flex;
+	justify-content: flex-end;
+}
+.chat-header {
+	display: flex;
+	justify-content: space-between;
+}
+.chat-title {
+}
+.chat {
+	width: 80%;
+	height: 300px;
+	border: 1px solid red;
+	margin: auto;
+}
+.send-message {
+
+	margin: auto;
+}

@@ -1,3 +1,7 @@
-import './css/style.css';
+import './css/collapse.css';
 
-import './js/holeGame';
+import './css/chat.css';
+
+import './js/collapseble';
+
+import './js/chat';
