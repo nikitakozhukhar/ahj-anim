@@ -1,0 +1,68 @@
+.likes-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.likes-btn {
+	position: relative;
+	z-index: 1;
+	width: 150px;
+	height: 50px;
+	background-color: red;
+	color: white;
+	font-size: 1.3em;
+	border: 0px transparent;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.hart {
+	position: relative;
+    z-index: 0;
+    bottom: 53px;
+    left: 436px;
+    height: 27px;
+	background-image: url(../img/heart.png);
+	background-repeat: no-repeat;
+	animation-name: hart-fly;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
+}
+
+@keyframes hart-fly {
+	0% {
+		z-index: 5;
+		left: 436px;
+		bottom: 53px;
+		opacity: 1;
+	}
+
+	25% {
+		z-index: 5;
+		left: 486px;
+		bottom: 103px;
+		opacity: 1;
+	}
+
+	50% {
+		z-index: 5;
+		left: 436px;
+		bottom: 153px;
+		opacity: 0.8;
+	}
+
+	75% {
+		z-index: 5;
+		left: 386px;
+		bottom: 203px;
+		opacity: 0.5;
+	}
+
+	100% {
+		z-index: 5;
+		left: 436px;
+		bottom: 253px;
+		opacity: 0.1;
+	}
+}
