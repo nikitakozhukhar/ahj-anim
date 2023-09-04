@@ -1,0 +1,1 @@
+var collapse=document.querySelector(".collapse"),text=document.querySelector(".collapseble"),container=document.querySelector(".container");collapse.addEventListener("click",(function(e){e.stopImmediatePropagation(),container.classList.toggle("show")}));
