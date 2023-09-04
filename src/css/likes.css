@@ -1,7 +1,10 @@
 .likes-container {
 	display: flex;
 	justify-content: center;
-	margin-top: 100px;
+
+	position: fixed;
+	top: 50%;
+	left: 43%;
 }
 
 .likes-btn {
@@ -19,12 +22,13 @@
 
 .heart {
 	position: fixed;
-    z-index: 0;
-    width: 30px;
-    /* bottom: 75%; */
-    height: 30px;
+	z-index: 0;
+	width: 30px;
+	top: 50%;
+	height: 30px;
 	background-image: url(../img/heart.png);
 	background-repeat: no-repeat;
+	animation-name: heart-fly1;
 	animation-duration: 0.5s;
 	animation-timing-function: ease-out;
 }
@@ -33,35 +37,35 @@
 	0% {
 		z-index: 5;
 		right: 49%;
-		bottom: 74%;
+		top: 50%;
 		opacity: 1;
 	}
 
 	25% {
 		z-index: 5;
 		right: 53%;
-		bottom: 79%;
+		top: 45%;
 		opacity: 1;
 	}
 
 	50% {
 		z-index: 5;
 		right: 49%;
-		bottom: 84%;
+		top: 40%;
 		opacity: 0.8;
 	}
 
 	75% {
 		z-index: 5;
 		right: 45%;
-		bottom: 89%;
+		top: 35%;
 		opacity: 0.5;
 	}
 
 	100% {
 		z-index: 5;
 		right: 49%;
-		bottom: 100%;
+		top: 30%;
 		opacity: 0.1;
 	}
 }
@@ -70,35 +74,35 @@
 	0% {
 		z-index: 5;
 		right: 49%;
-		bottom: 74%;
+		top: 50%;
 		opacity: 1;
 	}
 
 	25% {
 		z-index: 5;
 		right: 49%;
-		bottom: 79%;
+		top: 45%;
 		opacity: 1;
 	}
 
 	50% {
 		z-index: 5;
 		right: 45%;
-		bottom: 84%;
+		top: 40%;
 		opacity: 0.8;
 	}
 
 	75% {
 		z-index: 5;
 		right: 53%;
-		bottom: 89%;
+		top: 35%;
 		opacity: 0.5;
 	}
 
 	100% {
 		z-index: 5;
 		right: 49%;
-		bottom: 100%;
+		top: 30%;
 		opacity: 0.1;
 	}
 }
@@ -107,35 +111,35 @@
 	0% {
 		z-index: 5;
 		right: 49%;
-		bottom: 74%;
+		top: 50%;
 		opacity: 1;
 	}
 
 	25% {
 		z-index: 5;
 		right: 49%;
-		bottom: 79%;
+		top: 45%;
 		opacity: 1;
 	}
 
 	50% {
 		z-index: 5;
 		right: 53%;
-		bottom: 84%;
+		top: 40%;
 		opacity: 0.8;
 	}
 
 	75% {
 		z-index: 5;
 		right: 45%;
-		bottom: 89%;
+		top: 35%;
 		opacity: 0.5;
 	}
 
 	100% {
 		z-index: 5;
 		right: 49%;
-		bottom: 100%;
+		top: 30%;
 		opacity: 0.1;
 	}
 }
@@ -144,35 +148,35 @@
 	0% {
 		z-index: 5;
 		right: 49%;
-		bottom: 74%;
+		top: 50%;
 		opacity: 1;
 	}
 
 	25% {
 		z-index: 5;
 		right: 45%;
-		bottom: 79%;
+		top: 45%;
 		opacity: 1;
 	}
 
 	50% {
 		z-index: 5;
 		right: 49%;
-		bottom: 84%;
+		top: 40%;
 		opacity: 0.8;
 	}
 
 	75% {
 		z-index: 5;
 		right: 53%;
-		bottom: 89%;
+		top: 35%;
 		opacity: 0.5;
 	}
 
 	100% {
 		z-index: 5;
 		right: 49%;
-		bottom: 100%;
+		top: 30%;
 		opacity: 0.1;
 	}
 }
