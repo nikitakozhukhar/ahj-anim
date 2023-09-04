@@ -1,15 +1,15 @@
 
 const likesBtn = document.querySelector('.likes-btn');
 const likesContaner = document.querySelector('.likes-container')
-const hartContainer = document.querySelector('.hart-container')
 
 likesBtn.addEventListener('click', e => {
 	e.stopImmediatePropagation();
-	// console.log('click')
-	hartContainer.classList.toggle('hart')
-	// likesContaner.after('<div class="hart-contaner"></div>')
+	const heart = document.createElement('div');
+	heart.className = 'heart';
 	
-
-	
-	
+	heart.style.animationName = `heart-fly${Math.floor(Math.random() * 4 + 1)}`;
+	likesContaner.appendChild(heart);
+	heart.addEventListener('animationend', () => {
+		likesContaner.removeChild(heart);
+	})
 })
